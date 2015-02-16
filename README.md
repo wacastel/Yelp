@@ -31,6 +31,6 @@ Time spent: 15 hours
 
 ### Walkthrough
 
-![Video Walkthrough](https://raw.githubusercontent.com/wacastel/ios_yelp_swift/a86bdf8d40b7954b403eca8bbdad55415fc30737/yelp-client-hw-2.gif)
+![Video Walkthrough](https://raw.githubusercontent.com/wacastel/Yelp/master/yelp-client-hw-2.gif)
 
 
