@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6750" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6735"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="SwitchCell" customModule="Yelp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rp8-VJ-ao6">
+                        <rect key="frame" x="255" y="6" width="51" height="31"/>
+                        <connections>
+                            <action selector="switchValueChanged:" destination="KGk-i7-Jjw" eventType="valueChanged" id="od6-cP-uKi"/>
+                        </connections>
+                    </switch>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rQa-pG-0cE">
+                        <rect key="frame" x="25" y="11.5" width="42" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="rp8-VJ-ao6" secondAttribute="bottom" constant="6.5" id="9ff-SM-dn8"/>
+                    <constraint firstItem="rp8-VJ-ao6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="Rfv-fz-xJF"/>
+                    <constraint firstAttribute="trailing" secondItem="rp8-VJ-ao6" secondAttribute="trailing" constant="16" id="ecF-ct-Obz"/>
+                    <constraint firstAttribute="centerY" secondItem="rQa-pG-0cE" secondAttribute="centerY" id="n8s-dn-Lgd"/>
+                    <constraint firstItem="rQa-pG-0cE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="25" id="yZy-5E-4f1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="titleLabel" destination="rQa-pG-0cE" id="E6H-YX-NP4"/>
+                <outlet property="toggleSwitch" destination="rp8-VJ-ao6" id="rhM-4M-kML"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

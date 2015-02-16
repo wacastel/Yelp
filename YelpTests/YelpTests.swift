@@ -2,8 +2,8 @@
 //  YelpTests.swift
 //  YelpTests
 //
-//  Created by William Castellano on 2/15/15.
-//  Copyright (c) 2015 codepath. All rights reserved.
+//  Created by Timothy Lee on 9/19/14.
+//  Copyright (c) 2014 Timothy Lee. All rights reserved.
 //
 
 import UIKit
